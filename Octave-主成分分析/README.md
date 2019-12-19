@@ -36,7 +36,7 @@
 # 課題３（Step-3）
 課題3では配布データのiris4d.txt に対して主成分分析を適用し，固有値の大きい上位r 本の固有ベクトルを用いて，式(6)により<img src="https://latex.codecogs.com/svg.latex?\Large&space;\widetilde{x_i}" title="\widetilde{x_i}" /> を求める．その後，元のサンプル<img src="https://latex.codecogs.com/svg.latex?\Large&space;\widetilde{x_i}" title="\widetilde{x_i}" /> との2 乗誤差の平均
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;{error}_r=\frac{1}{n}i=1nxi-xi=1ni=1nxi-xiTXI-XI" title="" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;{error}_r=\frac{1}{n}i=1nxi-xi=1ni=1nxi-xiTXI-XI" title="{error}_r=\frac{1}{n}i=1nxi-xi=1ni=1nxi-xiTXI-XI" />
 
 
 を計算する．その結果で横軸をr，縦軸を{error}_rとしたグラフ出力させる．
