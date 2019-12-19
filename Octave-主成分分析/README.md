@@ -36,8 +36,7 @@
 # 課題３（Step-3）
 課題3では配布データのiris4d.txt に対して主成分分析を適用し，固有値の大きい上位r 本の固有ベクトルを用いて，式(6)により\widetilde{x_i} を求める．その後，元のサンプル\widetilde{x_i} との2 乗誤差の平均
 
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-- <img src="https://latex.codecogs.com/gif.latex?s=\text { sensor reading }  " /> 
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 
 を計算する．その結果で横軸をr，縦軸を{error}_rとしたグラフ出力させる．
