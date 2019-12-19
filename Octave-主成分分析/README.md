@@ -34,9 +34,4 @@
 また分布の近似について調べるために累積寄与率も計算する
 
 # 課題３（Step-3）
-課題3では配布データのiris4d.txt に対して主成分分析を適用し，固有値の大きい上位r 本の固有ベクトルを用いて，式(6)により<img src="https://latex.codecogs.com/svg.latex?\Large&space;\widetilde{x_i}" title="\widetilde{x_i}" /> を求める．その後，元のサンプル<img src="https://latex.codecogs.com/svg.latex?\Large&space;\widetilde{x_i}" title="\widetilde{x_i}" /> との2 乗誤差の平均
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin error〗_r=1/n ∑_(i=1)^n‖x_i-(x_i ) ̃ ‖ =1/n ∑_(i=1)^n(x_i-(x_i ) ̃ )^T  (X_I-(X_I ) ̃ ) " title="\begin error〗_r=1/n ∑_(i=1)^n‖x_i-(x_i ) ̃ ‖ =1/n ∑_(i=1)^n(x_i-(x_i ) ̃ )^T  (X_I-(X_I ) ̃ ) " />
-
-
-を計算する．その結果で横軸をr，縦軸を{error}_rとしたグラフ出力させる．
+課題3では配布データのiris4d.txt に対して主成分分析を適用し，固有値の大きい上位r 本の固有ベクトルを用いて，<img src="https://latex.codecogs.com/svg.latex?\Large&space;\widetilde{x_i}" title="\widetilde{x_i}" /> を求める．その後，元のサンプル<img src="https://latex.codecogs.com/svg.latex?\Large&space;\widetilde{x_i}" title="\widetilde{x_i}" /> との2 乗誤差の平均を計算する．その結果で横軸をr，縦軸を<img src="https://latex.codecogs.com/svg.latex?\Large&space;{error}_r" title="{error}_r" />としたグラフ出力させる．
