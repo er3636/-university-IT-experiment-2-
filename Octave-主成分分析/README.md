@@ -34,9 +34,9 @@
 また分布の近似について調べるために累積寄与率も計算する
 
 # 課題３（Step-3）
-課題3では配布データのiris4d.txt に対して主成分分析を適用し，固有値の大きい上位r 本の固有ベクトルを用いて，式(6)により\widetilde{x_i} を求める．その後，元のサンプル\widetilde{x_i} との2 乗誤差の平均
+課題3では配布データのiris4d.txt に対して主成分分析を適用し，固有値の大きい上位r 本の固有ベクトルを用いて，式(6)により\widetilde{x_i} を求める．その後，元のサンプル との2 乗誤差の平均
 
-h<sub>{error}_r=\frac{1}{n}i=1nxi-xi=1ni=1nxi-xiTXI-XI<sub>1</sub>x
 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\widetilde{x_i}" title="\widetilde{x_i}" />
 
 を計算する．その結果で横軸をr，縦軸を{error}_rとしたグラフ出力させる．
